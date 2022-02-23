@@ -23,7 +23,7 @@ As shown in Figure 1, the design variables of this problem are their two-dimensi
 
 **Problem Statements and codes**:
 
-The detailed problem statement for this competition can be downloaded <a href="#" onclick="download(this.src)" data-src="files/problem_statement_0211.pdf">下载 PDF</a> [here](files/problem_statement_0211.pdf). Codes for evaluating four public test problems are supplied with two versions ([MATLAB](files/code_matlab_0222.rar) and [Python](files/code_python_0222.zip)). Accordingly, submissions of MATLAB or Python source codes are both acceptable.
+The detailed problem statement for this competition can be downloaded <a href="#" onclick="downloadFile(this.dataset.src)" data-src="files/problem_statement_0211.pdf">下载 PDF</a> [here](files/problem_statement_0211.pdf). Codes for evaluating four public test problems are supplied with two versions ([MATLAB](files/code_matlab_0222.rar) and [Python](files/code_python_0222.zip)). Accordingly, submissions of MATLAB or Python source codes are both acceptable.
 
 **Rules**:
 

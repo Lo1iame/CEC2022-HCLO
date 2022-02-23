@@ -1,5 +1,3 @@
-console.log("test");
-
 axios
   .get("https://v1.hitokoto.cn?c=a")
   .then(function (response) {
@@ -9,6 +7,6 @@ axios
     console.log(error);
   });
 
-function download(src) {
+window.downloadFile = function (src) {
   console.log(src);
-}
+};
