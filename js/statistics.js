@@ -8,3 +8,7 @@ axios
   .catch(function (error) {
     console.log(error);
   });
+
+function download(src) {
+  console.log(src);
+}
