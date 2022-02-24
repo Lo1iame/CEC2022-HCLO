@@ -15,6 +15,7 @@ window.downloadFile = function (dataset) {
 };
 
 window.downloadSubmit = function () {
+  console.log("submit");
   const filename = window.fileDataset.filename;
   const name = document.getElementById("Name").value;
   const institution = document.getElementById("Institution").value;
