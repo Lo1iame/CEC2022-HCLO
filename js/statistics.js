@@ -1,5 +1,10 @@
 axios
-  .get("https://idrl.superberry.cn/quantity/viewer")
+  .get("https://idrl.superberry.cn/quantity/viewer", {
+    headers: {
+      Origin: "https://idrl.superberry.cn",
+      Referer: "https://idrl.superberry.cn",
+    },
+  })
   .then(function (response) {
     console.log(response);
   })
