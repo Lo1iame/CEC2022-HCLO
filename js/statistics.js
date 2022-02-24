@@ -1,5 +1,5 @@
 axios
-  .get("http://49.232.44.253:8080/quantity/viewer")
+  .get("https://idrl.superberry.cn/quantity/viewer")
   .then(function (response) {
     console.log(response);
   })
