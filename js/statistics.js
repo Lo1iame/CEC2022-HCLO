@@ -1,10 +1,21 @@
-axios
-  .get("https://idrl.superberry.cn/quantity/viewer", {
-    headers: {
+axios.interceptors.request.use(
+  function (config) {
+    // 在发送请求之前做些什么
+    config.headers = {
+      ...config.headers,
       Origin: "https://idrl.superberry.cn",
-      Referer: "https://idrl.superberry.cn",
-    },
-  })
+      Referer: "https://idrl.superberry.cn/",
+    };
+    return config;
+  },
+  function (error) {
+    // 对请求错误做些什么
+    return Promise.reject(error);
+  }
+);
+
+axios
+  .get("https://idrl.superberry.cn/quantity/viewer")
   .then(function (response) {
     console.log(response);
   })
