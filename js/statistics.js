@@ -28,7 +28,7 @@ window.downloadSubmit = function () {
   formData.append("filename", filename);
 
   axios
-    .post("http://49.232.44.253:8080/quantity/viewer", formData)
+    .post("https://idrl.superberry.cn/quantity/download", formData)
     .then(function (response) {
       console.log(response);
     })
@@ -37,7 +37,7 @@ window.downloadSubmit = function () {
     });
 
   modal.style.display = "none";
-  window.open(window.fileSrc);
+  window.open(window.fileDataset.src);
 };
 
 window.closeModal = function () {
