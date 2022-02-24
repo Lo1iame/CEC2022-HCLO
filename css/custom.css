@@ -5,6 +5,7 @@
     top: calc((100vh - 250px) / 3);
     display: flex;
     justify-content: center;
+    display: none;
 }
 .modal-view{
     width:  500px;
